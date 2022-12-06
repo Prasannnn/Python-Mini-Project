@@ -1,0 +1,9 @@
+import random
+title=["The Thirsty Crow","The Tortoise and The Hare","The Monkey and The Crocodile"]
+print(random.choice(title))
+when=["Few years ago","Once upon a time","A long time ago"]
+who=["a rabbit and a tortoise","a thirsty crow","a monkey and a crocodile"]
+what=["had a argument about who is faster and decided to settle the argument with a race.",
+      "flew into village searching for some water to drink.",
+      "The stupid crocodile was happy when he heard that the monkey was kind enough to offer his heart without any resistance"]
+print(random.choice(when),random.choice(who),random.choice(what))
